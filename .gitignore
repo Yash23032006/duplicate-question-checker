@@ -1,0 +1,23 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local/editor files and secrets
+.vscode/
+.idea/
+.DS_Store
+*.log
+.env
+.streamlit/secrets.toml
+
+# Dataset is only needed for training/evaluation, not for Streamlit inference
+data/train.csv
+
+# Generated evaluation outputs
+evaluation_results/
+
+# Optional local experiment model
+models/duplicate_model_embeddings.joblib

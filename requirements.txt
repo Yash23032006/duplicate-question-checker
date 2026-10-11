@@ -1,0 +1,8 @@
+# Runtime dependencies for app.py
+streamlit
+pandas
+numpy
+scipy
+scikit-learn == 1.8.0
+joblib
+matplotlib
